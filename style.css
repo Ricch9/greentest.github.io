@@ -1,0 +1,383 @@
+h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 254, 238);
+    font-family:"Roboto", sans-serif, "Kantumruy Pro", sans-serif;
+}
+.menu-bar{
+    background-color: MediumSeaGreen;
+    border-bottom: 1px solid rgb(0, 164, 74);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h1{
+    padding: 15px;
+    color: white;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 700;
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+}
+.menu ul li a{
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 700;
+}
+.menu-slide{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(13, 126, 64);
+}
+.menu-slide .slide{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.menu-slide .img-box{
+    width: 100%;
+    height: 100%;
+}
+.menu-slide img{
+    width: 100%;
+    height: 100%;
+    opacity: 15%;
+}
+.txt-box{
+    display: flex;
+    width: 760px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.txt-box .txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.txt-box h1{
+    color: white;
+    font-size: 40px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    text-shadow: 2px 1px 8px  rgb(0, 0, 0);
+}
+.txt-box p{
+    color: white;
+    font-family: 16px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px;
+    margin-top: 15px;
+}
+.txt-box button{
+    width: 180px;
+    padding: 6px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: rgb(0, 74, 59);
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+.feature .feature-box{
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+}
+.feature .text-core h1{
+    margin-top: 15px;
+    color: rgb(13, 126, 64);
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+}
+.feature .text-core p{
+    margin-top: 15px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.text-box{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+}
+.feature-txt{
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+.feature-txt .text{
+    width: 35%;
+    height: 100%;
+}
+.feature-txt .sam{
+    width: 100%;
+    height: 95%;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+}
+.feature-txt .sam .sam-box{
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(116, 255, 227, 0.385);
+    border-radius: 12px;
+    box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.222);
+}
+.feature-txt .sam .sam-box:hover{
+    transform: translate(0px,-7px);
+    border: 2px solid rgba(13, 126, 64, 0.707);
+    box-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.508);
+}
+.sam-box h1{
+    color: rgb(13, 126, 64);
+    font-size: 26px;
+    padding: 10px;
+    margin-top: 28px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 600;
+}
+.sam-box p{
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 400;
+}
+.about{
+    width: 100%;
+    height: 380px;
+    background-color: rgba(103, 255, 171, 0.115);
+    display: flex;
+    justify-content: center;
+}
+.about .box-about{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.207);
+    border-radius: 0px 0px 8px 8px;
+    justify-content: center;
+} 
+.box-about h1{
+    color: rgb(13, 126, 64);
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.box-about p{
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    font-size: 20px;
+}
+.client-box{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(122, 255, 182, 0.512);
+    display: flex;
+    flex-wrap: wrap;
+}
+.client-box .head{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.head h1{
+    margin-top: 90px;
+    color: rgb(13, 126, 64);
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 600;
+}
+.client-box .tail-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tail-box .box3{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* .tail-box{
+    position: relative;
+}
+i{
+    position: absolute;
+    top: -7px;
+    left: 34%;
+    font-size: 22px;
+    color: rgb(13, 126, 64);
+} */
+.tail-box .box3 .box4{
+    width: 44%;
+    height: 140px;
+    float: left;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4 .blockqoute{
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.blockqoute{
+    position: relative; 
+}
+i{
+    position: absolute;
+    top: -23px;
+    left: 1%;
+    font-size: 22px;
+    color: rgb(13, 126, 64);
+}
+.box4 p{
+    font-size: 11px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 350;
+}
+.blockqoute button{
+    width: 175px;
+    margin-top: 8px;
+    border: none;
+    font-size: 9px;
+    padding: 10px;
+    background-color: rgb(0, 52, 0);
+    color: rgb(102, 149, 102);
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 600;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact .get-box{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.16);
+}
+.get-box h1{
+    margin-top: 90px;
+    text-align: center;
+    color: rgb(13, 126, 64);
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 600;
+}
+.get-box label{
+    font-size: 16px;
+    color: rgb(13, 126, 64);
+    width: 100%;
+    margin-top: 13px;
+    margin-left: 15px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 600;
+}
+.get-box input{
+    font-size: 10px;
+    width: 95%;
+    border: 1px solid rgb(13, 126, 64);
+    border-radius: 5px;
+    padding-left: 8px;
+    margin-top: -14px;
+}
+.get-box textarea{
+    font-size: 12px;
+    width: 95%;
+    height: 120px;
+    border: 1px solid rgb(13, 126, 64);
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: -14px;
+    margin-bottom: 11px;
+}
+.get-box button{
+    width: 85%;
+    border: none;
+    background-color: rgb(13, 126, 64);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.get-box button a{
+    text-decoration: none;
+    color: white;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 600;
+    padding: 16px;
+}
+.get-box p{
+    width: 100%;
+    margin-left: 45px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.419);
+    margin-bottom: 30px;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(0, 83, 38);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    color: white;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
